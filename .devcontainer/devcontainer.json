@@ -1,8 +1,8 @@
 {
 	"name": "msdocs-flask-postgresql-sample-app",
 	"dockerComposeFile": "docker-compose.yml",
-	"workspaceFolder": "/workspaces/data_analytics_python_postgres",
-
+	"service": "app",
+	"workspaceFolder": "/workspace",
 	"features": {
 		"ghcr.io/azure/azure-dev/azd:latest": {}
 	},
@@ -24,9 +24,9 @@
 						"previewLimit": 50,
 						"server": "localhost",
 						"port": 5432,
-						"database": "mydb",
-						"username": "admin",
-						"password": "geheim"
+						"database": "app",
+						"username": "app_user",
+						"password": "app_password"
 					}
 				],
 				"python.pythonPath": "/usr/local/bin/python",
@@ -56,8 +56,7 @@
 		5000, 5432
 	],
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pip install -r requirements.txt",
-
+	// "postCreateCommand": "",
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode"
 }
