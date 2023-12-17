@@ -19,4 +19,3 @@ DBPASS=app_password
 ### Run the example
 
 Run the Jupyter notebook 'jupyter_postgres_db.ipynb'
-
