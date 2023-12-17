@@ -2,7 +2,7 @@
 
 ### Setup
 
-1. Create an `.env` file with the db credentials, e.g.:
+1. Change content of the '.env' file with database credentials, e.g.:
 
 FLASK_DEBUG=True
 DBNAME=mydb
