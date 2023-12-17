@@ -5,10 +5,10 @@
 1. Change content of the '.env' file with database credentials, e.g.:
 
 FLASK_DEBUG=True
-DBNAME=mydb
+DBNAME=app
 DBHOST=localhost
-DBUSER=admin
-DBPASS=geheim
+DBUSER=app_user
+DBPASS=app_password
 
 2. Run the migrations:
 
