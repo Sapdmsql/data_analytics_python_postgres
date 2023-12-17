@@ -3,12 +3,6 @@
 	"dockerComposeFile": "docker-compose.yml",
 	"workspaceFolder": "/workspace",
 
-	"extensions": [
-		"ms-python.python",
-		"ms-toolsai.jupyter",
-		"analytic-signal.preview-pdf"
-	],
-
 	"features": {
 		"ghcr.io/azure/azure-dev/azd:latest": {}
 	},
