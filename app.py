@@ -8,7 +8,7 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__, static_folder='static')
 
 app.config.update(
-    SQLALCHEMY_DATABASE_URI=app.config.get('DATABASE_URI'),
+    SQLALCHEMY_DATABASE_URI='postgresql://app_user:app_password@db:5432/app',
     SQLALCHEMY_TRACK_MODIFICATIONS=False,
 )
 
