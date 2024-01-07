@@ -1,2 +1,2 @@
-DELETE FROM car_table
-Where IS NULL;
+SELECT * FROM car_table
+Where price = '599000';
